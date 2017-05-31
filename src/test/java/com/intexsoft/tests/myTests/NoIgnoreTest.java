@@ -9,8 +9,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by artsem_dudar on 5/30/2017.
  */
-public class IgnoreTest {
-    @Ignore("Test is ignored as a demonstration")
+public class NoIgnoreTest {
     @Test
     public void testSame() {
         assertThat(1, is(1));
